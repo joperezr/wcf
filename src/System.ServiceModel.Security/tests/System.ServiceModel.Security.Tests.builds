@@ -4,7 +4,6 @@
   <ItemGroup>
     <Project Include="System.ServiceModel.Security.Tests.csproj" >
       <TargetGroup>netstandard1.3</TargetGroup>
-      <TestTFMs>netcoreapp1.0</TestTFMs>
     </Project>
   </ItemGroup>
   <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.traversal.targets))\dir.traversal.targets" />
